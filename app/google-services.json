@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308556661961",
+    "project_id": "eva3-cd320",
+    "storage_bucket": "eva3-cd320.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308556661961:android:8572e8916b643de611f918",
+        "android_client_info": {
+          "package_name": "com.example.eva3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASqC14aR4nExdLYqko_6Gmys3V6maP790"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

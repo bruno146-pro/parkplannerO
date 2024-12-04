@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cambiar_contrase_a"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"/>
+
+    <!-- Editar contraseña actual -->
+    <EditText
+        android:id="@+id/editTextOldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrase_a_actual"
+        android:inputType="textPassword" />
+
+    <!-- Editar nueva contraseña -->
+    <EditText
+        android:id="@+id/editTextNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nueva_contrase_a"
+        android:inputType="textPassword" />
+
+    <!-- Botón de guardar cambios -->
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_cambios" />
+
+    <!-- Botón de borrar cuenta -->
+    <Button
+        android:id="@+id/buttonBorrarCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/borrar_cuenta"
+        android:textColor="@android:color/holo_red_light" />
+
+    <!-- Botón de volver atrás al menú -->
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver_al_men" />
+
+</LinearLayout>

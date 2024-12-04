@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTitulo" type="id" />
+    <item name="tilNombreReserva" type="id" />
+    <item name="etNombreReserva" type="id" />
+    <item name="tilPatente" type="id" />
+    <item name="etPatente" type="id" />
+    <item name="btnGuardar" type="id" />
+    <item name="btnVer" type="id" />
+    <item name="textView" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="tvRegistrar" type="id" />
+    <item name="tv_title" type="id" />
+</resources>
